@@ -7,6 +7,11 @@ new Swiper('.swiper', {
     el: ".swiper-pagination",
     clickable: true,
   },
+  breakpoints: {
+    769: {
+      allowTouchMove: false,
+    }
+  }
 });
 
 function openSlides(close, open) {
