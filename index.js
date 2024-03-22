@@ -3,7 +3,6 @@ import Swiper from "https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.brow
 new Swiper('.swiper', {
   slidesPerView: "auto",
   spaceBetween: 16,
-  allowTouchMove: false,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -21,9 +20,9 @@ function openSlides(close, open) {
       const desktop = window.matchMedia("(min-width: 1121px)");
       if (desktop.matches) {
         let clone1 = document.querySelector('.swiper-slide:nth-child(2)').cloneNode(true);
-        clone1.classList.add('clone')
+        clone1.classList.add('clone');
         let clone2 = document.querySelector('.swiper-slide:nth-child(3)').cloneNode(true);
-        clone2.classList.add('clone')
+        clone2.classList.add('clone');
         parent.appendChild(clone1);
         parent.appendChild(clone2);
       }
