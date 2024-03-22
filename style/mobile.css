@@ -1,0 +1,31 @@
+.header {
+  padding: 16px;
+}
+.swiper {
+  height: 120px;
+  padding: 16px !important;
+  padding-top: 16px;
+}
+.swiper-slide {
+  max-width: 240px;
+}
+.swiper-slide:nth-child(1n) {
+  width: 79.5%;
+} 
+ .swiper-slide:nth-child(2n) {
+  width: 79.5%;
+} 
+.swiper-pagination {
+  bottom: 0px !important;
+  z-index: 10;
+  margin-top: auto;
+  display: block !important;
+}
+.swiper-pagination span {
+  background-color: #979797;
+  height: 12px;
+  width: 12px;
+}
+.swiper__button {
+  display: none;
+}

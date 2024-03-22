@@ -1,0 +1,35 @@
+.header {
+  padding-left: 24px;
+  height: 56px;
+  display:table-cell;
+  vertical-align:middle;
+}
+.swiper {
+  padding: 24px !important;
+}
+.swiper-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 16px 24px;
+  max-height: 160px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.swiper-slide {
+  max-width: 224px;
+  margin-right: 0 !important;
+}
+.swiper__button {
+  padding-left: 8px;
+  background-color: transparent;
+  border: none;
+  font-family: "TT Lakes Medium" !important;
+  margin-top: 0px;
+}
+.swiper__button > img {
+  margin-right: 9px;
+}
+.open img {
+  transform: rotate(180deg);
+}
