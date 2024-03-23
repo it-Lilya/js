@@ -15,6 +15,7 @@
   max-height: 160px;
   overflow: hidden;
   padding-bottom: 15px;
+  transform: translate3d(0px, 0px, 0px) !important;
 }
 .swiper-slide {
   max-width: 224px;

@@ -20,8 +20,7 @@ function openSlides(close, open) {
     btn.classList.toggle('open');
     let parent = document.querySelector('.swiper-wrapper');
     if (btn.classList.contains('open')) {
-      document.querySelector('.swiper-wrapper').style.maxHeight = open;
-      btn.querySelector('span').textContent = 'Скрыть';
+      document.querySelector('.swiper-wrapper').style.maxHeight = open;btn.querySelector('span').textContent = 'Скрыть';
       const desktop = window.matchMedia("(min-width: 1121px)");
       if (desktop.matches) {
         let clone1 = document.querySelector('.swiper-slide:nth-child(2)').cloneNode(true);
@@ -43,4 +42,4 @@ function openSlides(close, open) {
 }
 window.addEventListener('load', () => {
   openSlides('160px', '290px');
-})
+});
